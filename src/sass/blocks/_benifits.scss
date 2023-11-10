@@ -1,0 +1,43 @@
+.benifits{
+	padding: 73px 0 65px 0;
+	background-color: #f6f6f6;
+	
+	&__wrapper{
+		display: flex;
+		margin-top: 65px;
+		justify-content: space-between;
+	}
+	&__item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+      max-width: 238px;
+		}
+	&__subtitle{
+		color: #0d0d0d;
+		font-weight: 700;
+		font-size: 18px;
+		align-items: center;
+		margin-bottom: 20px;
+		margin-top: 35px;
+		}
+	&__descr{
+		font-weight: 300;
+		font-size: 14px;
+		text-align: center;
+		color: #0D0D0D;
+		a{
+			color: #ff0000;
+         text-decoration: underline;
+		}
+	}	
+	&__img{
+		&_animated{
+			animation:heartbeat 1.5s ease infinite;
+			&:hover{
+				animation-play-state: paused;
+			}
+		}
+	}
+}
+
